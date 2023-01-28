@@ -152,19 +152,19 @@ var carDetails = {
 //Code Here
 
 
-function totalPopulation(obj){
-  const {utah, california, texas, arizona} = obj
-  return utah + california + texas + arizona
-}
+// function totalPopulation(obj){
+//   const {utah, california, texas, arizona} = obj
+//   return utah + california + texas + arizona
+// }
 
-let sumOfPopulation = {
-  utah: 100,
-  california: 900,
-  texas: 50,
-  arizona: 700
-}
+// let sumOfPopulation = {
+//   utah: 100,
+//   california: 900,
+//   texas: 50,
+//   arizona: 700
+// }
 
-console.log(totalPopulation(sumOfPopulation))
+// console.log(totalPopulation(sumOfPopulation))
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
@@ -178,6 +178,20 @@ console.log(totalPopulation(sumOfPopulation))
 
 //Code Here
 
+// function ingredients(obj){
+//   const{carb, fat, protien} = obj
+
+
+//   return [carb, fat, protien]
+// }
+
+// foo = {
+//   carb: 'Wheat',
+//   fat: 'Bacon',
+//   protien: 'Meat'
+// }
+
+// console.log(ingredients(foo))
 
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
@@ -199,6 +213,12 @@ var user = {
 */
 
 //Code Here
+
+
+user.name = 'Bryan G. Smith'
+user.email = 'bryan.smith@devmounta.in'
+
+console.log(user)
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
