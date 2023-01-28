@@ -215,10 +215,10 @@ var user = {
 //Code Here
 
 
-user.name = 'Bryan G. Smith'
-user.email = 'bryan.smith@devmounta.in'
+// user.name = 'Bryan G. Smith'
+// user.email = 'bryan.smith@devmounta.in'
 
-console.log(user)
+// console.log(user)
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
@@ -227,6 +227,9 @@ console.log(user)
 */
 
 //Code Here
+
+// delete user.age
+// console.log(user)
 
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
@@ -237,6 +240,21 @@ console.log(user)
 */
 
 //Code here
+
+
+class Cat {
+  constructor(name, age, color) {
+    this.name = name;
+    this.age = age;
+    this.color = color;
+  }
+}
+
+const tanner = new Cat('Tanner', 27, 'blue')
+
+// console.log(thunder.name)
+
+console.log(tanner.name)
 
 
 
