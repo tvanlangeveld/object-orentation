@@ -89,9 +89,9 @@ let favoriteThings = {
 
 //Code here
 
-favoriteThings.food = 'Chicken Nuggets';
-favoriteThings['book'] = 'Harry Potter'
-console.log(favoriteThings)
+// favoriteThings.food = 'Chicken Nuggets';
+// favoriteThings['book'] = 'Harry Potter'
+// console.log(favoriteThings)
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
@@ -111,7 +111,10 @@ var carDetails = {
 
 //Code Here
 
+// const {color, make, model, year} = car
 
+
+// Make sure to ask questions on this to make sure you understand fully. 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
 
@@ -121,14 +124,19 @@ var carDetails = {
   The property names are firstName, lastName, and title.
 */
 
-function greeting( obj ) {
-  //Code Here
-  
-  // Do not edit the code below.
-  return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
-  // Do not edit the code above.
-}
-
+// function greeting( obj ) {
+//   //Code Here
+//   const {firstName, lastName, title} = obj 
+//   // Do not edit the code below.
+//   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
+//   // Do not edit the code above.
+// }
+// let foo = {
+//   firstName: 'Tanner',
+//   lastName: 'Vanlangeveld',
+//   title: 'sir'
+// }
+// console.log(greeting(foo))
 
 
 //////////////////////////// PROBLEM 8 ////////////////////////////
@@ -144,6 +152,19 @@ function greeting( obj ) {
 //Code Here
 
 
+function totalPopulation(obj){
+  const {utah, california, texas, arizona} = obj
+  return utah + california + texas + arizona
+}
+
+let sumOfPopulation = {
+  utah: 100,
+  california: 900,
+  texas: 50,
+  arizona: 700
+}
+
+console.log(totalPopulation(sumOfPopulation))
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
