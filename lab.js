@@ -242,19 +242,18 @@ var user = {
 //Code here
 
 
-class Cat {
-  constructor(name, age, color) {
-    this.name = name;
-    this.age = age;
-    this.color = color;
-  }
-}
+// class Cat {
+//   constructor(name, age, color) {
+//     this.name = name;
+//     this.age = age;
+//     this.color = color;
+//   }
+// }
 
-const tanner = new Cat('Tanner', 27, 'blue')
+// const tanner = new Cat('Tanner', 27, 'blue')
 
-// console.log(thunder.name)
 
-console.log(tanner.name)
+// console.log(tanner.name)
 
 
 
@@ -267,6 +266,21 @@ console.log(tanner.name)
 */
 
 //Code here
+
+
+class Wizard {
+  constructor(name, age, favoriteSpell) {
+    this.name = name;
+    this.age = age;
+    this.favoriteSpell = favoriteSpell;
+  } 
+  castSpell(){
+  return (`${this.name} has cast ${this.favoriteSpell}`)}
+}
+
+const witch = new Wizard('Hermonie', 16, 'abrakadabra')
+
+console.log(witch.castSpell())
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
