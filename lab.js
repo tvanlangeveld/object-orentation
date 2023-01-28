@@ -6,12 +6,14 @@
 
 //Code here
 
-let me = {
- name: 'Tanner',
- age: 27
-}
+// let me = {
+//  name: 'Tanner',
+//  age: 27
+// }
 
-console.log(me)
+// console.log(me)
+
+
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -23,12 +25,21 @@ console.log(me)
 //Code here
 
 
+const dog = {
+  name: 'Koda Guy',
+  color: 'brown',
+  age: 2,
+  goodBoy: true
+}
+// console.log(dog)
+
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
 /* Print out the name of the dog you created in problem 2 using dot-notation. */
 
 //Code here
 
+// console.log(dog.name)
 
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
@@ -36,6 +47,7 @@ console.log(me)
 
 //Code here
 
+// console.log(dog['name'])
 
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
@@ -46,12 +58,28 @@ console.log(me)
 
 //Code here
 
+let favoriteThings = {
+  band: 'AcDc',
+  food: 'Pizza',
+  person: 'Maddy',
+  book: "The simple art of not giving a fuck",
+  movie: 'Iron man',
+  holiday: 'Christmas'
+}
+
+// console.log(favoriteThings)
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
 */
 
 //Code here
+
+// favoriteThings.car = 'Porsche';
+// favoriteThings.show = 'New Girl';
+
+// console.log(favoriteThings)
 
 
 /*
@@ -60,6 +88,10 @@ console.log(me)
 */
 
 //Code here
+
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings['book'] = 'Harry Potter'
+console.log(favoriteThings)
 
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
