@@ -268,19 +268,19 @@ var user = {
 //Code here
 
 
-class Wizard {
-  constructor(name, age, favoriteSpell) {
-    this.name = name;
-    this.age = age;
-    this.favoriteSpell = favoriteSpell;
-  } 
-  castSpell(){
-  return (`${this.name} has cast ${this.favoriteSpell}`)}
-}
+// class Wizard {
+//   constructor(name, age, favoriteSpell) {
+//     this.name = name;
+//     this.age = age;
+//     this.favoriteSpell = favoriteSpell;
+//   } 
+//   castSpell(){
+//   return (`${this.name} has cast ${this.favoriteSpell}`)}
+// }
 
-const witch = new Wizard('Hermonie', 16, 'abrakadabra')
+// const witch = new Wizard('Hermonie', 16, 'abrakadabra')
 
-console.log(witch.castSpell())
+// console.log(witch.castSpell())
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
@@ -307,6 +307,27 @@ console.log(witch.castSpell())
 
 //Code Here
 
+
+class Phone {
+  constructor(brand, model, storage, color, price){
+  this.brand = brand;
+  this.model = model;
+  this.storage = storage;
+  this.color = color;
+  this.price = price;
+  this.sold = false;
+}
+sell(){
+  this.sold = true
+  return (`${this.brand} ${this.model} has been sold!`)
+}
+changePrice(newPrice) {
+  this.price = newPrice
+}
+}
+
+
+
   
 /*
     Next make three new phone instances using your class.
@@ -320,6 +341,10 @@ console.log(witch.castSpell())
 
 //Code Here
 
+let phone1 = new Phone('Android', 'xd', 20, 'white', 899)
+let phone2 = new Phone('apple', 'Iphone 10', 21, 'black', 799)
+let phone3 = new Phone('google', 'no clue', 15, 'silver', 999)
+
 /* 
   Call the changePrice function on one of your phones, 
   don't forget to pass in a new price 
@@ -328,6 +353,12 @@ console.log(witch.castSpell())
 */ 
 
 //Code Here 
+
+// phone1.changePrice(1000)
+// console.log(phone2)
+// console.log(phone1)
+// console.log(phone3)
+
 
 
 /*
@@ -338,6 +369,8 @@ console.log(witch.castSpell())
 
 //Code Here 
 
+phone1.sell()
+console.log(phone1.sold)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
